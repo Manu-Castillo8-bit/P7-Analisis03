@@ -5,9 +5,11 @@
              Title="producto">
     <VerticalStackLayout Padding="40">
          <Label 
-            Text="PIZZA PEPPERONI GIGANTE"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    Text="PIZZA PEPPERONI GIGANTE"
+    FontAttributes="Bold"
+    FontSize="24"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
 
  <Image Source="pizza.jpg"  
        HeightRequest="186"
@@ -18,11 +20,14 @@
             <Label 
             Text="Ven, comparte y disfruta un deliciosa pizza junto a tus 
             amigos, familiares, o tus seres queridos."
+             FontSize="16"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
             <Label 
             Text="A tan solo $5.00, ven y acercate a nuestras sucursales. "
+             FontAttributes="Italic"
+               FontSize="16"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
