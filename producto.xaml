@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P7 Analisis03.producto"
+             Title="producto">
+    <VerticalStackLayout Padding="40">
+         <Label 
+            Text="PIZZA PEPPERONI GIGANTE"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+ <Image Source="pizza.jpg"  
+       HeightRequest="185"
+       Aspect="AspectFit" />
+
+          
+
+            <Label 
+            Text="Ven, comparte y disfruta un deliciosa pizza junto a tus 
+            amigos, familiares, o tus seres queridos."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+            <Label 
+            Text="A tan solo $5.00, ven y acercate a nuestras sucursales. "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>

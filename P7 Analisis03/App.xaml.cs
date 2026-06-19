@@ -7,11 +7,9 @@ namespace P7_Analisis03
         public App()
         {
             InitializeComponent();
+            MainPage = new producto();
         }
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
+        
     }
 }
