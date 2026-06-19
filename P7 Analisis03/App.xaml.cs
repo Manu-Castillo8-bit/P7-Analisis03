@@ -7,7 +7,7 @@ namespace P7_Analisis03
         public App()
         {
             InitializeComponent();
-            MainPage = new producto();
+            MainPage = new Producto();
         }
 
         
