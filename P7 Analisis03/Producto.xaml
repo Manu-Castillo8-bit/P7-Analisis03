@@ -10,7 +10,7 @@
             HorizontalOptions="Center" />
 
  <Image Source="pizza.jpg"  
-       HeightRequest="185"
+       HeightRequest="186"
        Aspect="AspectFit" />
 
           
